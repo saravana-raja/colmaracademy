@@ -1,196 +1,218 @@
-   *{
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-   }
-   
-   .mobilebanner {
-        padding: 0px;
-    }
+        * {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
     
-    h5 a {
-        color: aqua;
-    }
-    .navpad{
-        padding: 16px 24px;
-    }
-
-    nav .container-fluid {
-        padding: 0px;
-    }
-    .navbar {
-        padding: 0px;
-    }
-
-    .logo {
-        height: 32px;
-    }
-
-    .logo li {
-        padding-left: 16px;
-    }
-
-    a {
-        text-decoration: none;
-        color: #4a4a4a;
-    }
-
-    .banner {
-        background-color: #d8d8d8;
-    }
-
-    .imageone {
-        padding: 32px 24px;
-    }
-
-    .bannerimg {
-        padding: 32px 24px;
-    }
-
-    .lorem {
-        display: flex;
-        flex-flow: wrap column;
-        justify-content: center;
-        color: #4a4a4a;
-        padding-bottom: 32px;
-
-    }
-
-    .lorem h1 {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        padding-left: 16px;
-    }
-
-    .lorem h4 {
-        padding-left: 16px;
-    }
-
-    button {
-        padding: 8px 0px;
-        color: white;
-    }
-
-    .information {
-        padding: 32px 24px;
-    }
-
-    .orientation {
-        padding-top: 32px;
-        padding-bottom: 16px;
-        padding-left: 16px;
-    
-    }
-
-    #orient {
-        padding: 16px;
-    }
-
-    .campus {
-        padding-top: 16px;
-        padding-bottom: 16px;
-        padding-left: 16px;
-        margin-top: 0px;
-    }
-    #mobcampus {
-        padding-top: 64px;
-    }
-
-    .guest {
-        background-color: #d8d8d8;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        padding-left: 16px;
-    }
-
-    .guest p {
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-
-    .practise {
-        padding-left: 24px;
-        padding-top: 16px;
-        padding-bottom: 32px;
-    }
-
-    .practise h3 {
-        padding-bottom: 24px;
-    }
-
-    .learning{
-        background-color: #eaeaed;
-        padding-top: 32px;
-        padding-right: 72px;
-        padding-bottom: 32px;
-        padding-left: 72px;     
-    }       
-
-    .data {
-        padding-top: 32px;
-    }
-
-    .border-top h1 {
-        padding-top: 32px;
-        padding-bottom: 16px;
-    }
-
-    .btn {
-        color: #4a4a4a;
-        background-color: #d8d8d8; 
-        padding: 16px 0px 24px 16px;
-        text-align: left;
-        font-size: 20px;
-        margin-left: 16px;
-        margin-right: 16px;
-        font-weight: bold;
-    }
-
-    .mkb {
-        padding-bottom: 32px;
-    }
-
-
-    .video {
-        padding-right: 24px;
-        padding-bottom: 24px;
-        padding-left: 24px;
-    }
-
-    .fisma {
-    background-color: #d8d8d8;
-    }
-
-    .fismaicon{
-        padding: 16px;
-    }
-
-    .sky {
-        padding: 16px;
-    }
-
-    h1.thesis{
-        margin:0px;
-    }
-
-    .thesis {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        text-align: center;
-    }
-
-    .notes {
-        padding-left: 24px;
-        padding-bottom: 32px;
-    }
-
-    .notes h3{
-        padding-bottom: 8px;
-
-    }
-
-    footer {
-        padding-top: 16px;
-        padding-right: 24px;
-        padding-left: 24px;
+        nav.container{
+        justify-content: space-around;
         }
 
+        .mobilebanner {
+            padding: 0px;
+        }
+        
+        h5 a {
+            color: aqua;
+        }
+        .navpad{
+            padding: 16px 24px;
+        }
+
+        nav .container-fluid {
+            padding: 0px;
+        }
+        .navbar {
+            padding: 0px;
+        }
+
+        .logo {
+            height: 32px;
+        }
+
+        .logo li {
+            padding-left: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a4a4a;
+        }
+
+        .banner {
+            background-color: #d8d8d8;
+        }
+
+        .imageone {
+            padding: 32px 24px;
+        }
+
+        .bannerimg {
+            padding: 32px 24px;
+        }
+
+        .lorem {
+            display: flex;
+            flex-flow: wrap column;
+            justify-content: center;
+            color: #4a4a4a;
+            padding-bottom: 32px;
+
+        }
+
+        .lorem h1 {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            padding-left: 16px;
+        }
+
+        .lorem h4 {
+            padding-left: 16px;
+        }
+
+        button {
+            padding: 8px 0px;
+            color: white;
+        }
+
+        .information {
+            padding: 32px 24px;
+        }
+
+        .orientation {
+            padding-top: 32px;
+            padding-bottom: 16px;
+            padding-left: 16px;
+        
+        }
+
+        #orient {
+            padding: 16px;
+        }
+
+        .campus {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 16px;
+            margin-top: 0px;
+        }
+
+        #mobcampus {
+            padding-top: 64px;
+        }
+
+        .guest {
+            background-color: #d8d8d8;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 16px;
+        }
+
+        .guest p {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .practise {
+            padding-left: 24px;
+            padding-bottom: 32px;
+        }
+
+        .practise h3 {
+            padding-bottom: 24px;
+        }
+
+        .learning{
+            background-color: #eaeaed;
+            padding-top: 32px;
+            padding-right: 72px;
+            padding-bottom: 32px;
+            padding-left: 72px;     
+        }   
+
+        .learning h1 {
+            padding-bottom: 32px;
+        }
+        
+        .nopadding {
+            padding-right: 0px;
+
+        }
+
+        .data {
+            padding-top: 32px;
+        }
+
+        .border-top h1 {
+            padding-top: 32px;
+            padding-bottom: 16px;
+        }
+
+        
+        
+        .btn1 {
+            color: #4a4a4a;
+            background-color: #d8d8d8 ; 
+            padding: 16px 0px 24px 16px;
+            text-align: left;
+            font-size: 20px;
+            margin-left: 16px;
+            margin-right: 16px;
+            font-weight: bold;
+            
+        }
+
+        .mkb {
+            padding-bottom: 32px;
+        }
+
+
+        .video {
+            padding-right: 24px;
+            padding-bottom: 24px;
+            padding-left: 24px;
+        }
+
+        .fisma {
+        background-color: #d8d8d8;
+        }
+
+        .fismaicon{
+            padding: 16px;
+        }
+
+        .sky {
+            padding: 16px;
+        }
+
+        h1.thesis{
+            margin:0px;
+        }
+
+        .thesis {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            text-align: center;
+        }
+
+        .notes {
+            padding-left: 24px;
+            padding-bottom: 32px;
+        }
+
+        .notes h3{
+            padding-bottom: 8px;
+
+        }
+
+        footer {
+            padding-top: 16px;
+            padding-right: 24px;
+            padding-left: 24px;
+            }
+        .campus-style {
+            padding-left: 0px; 
+            padding-bottom: 0px; 
+            margin-bottom: 0px;
+            }
+
+      
 

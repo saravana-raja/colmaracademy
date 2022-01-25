@@ -15,37 +15,38 @@
 
 <body>
     <div class="navpad d-none d-sm-block">
-    <nav class="navbar navbar-expand navbar-light"> 
-        <div class="container-fluid">
-            <img src="Resources/ic-logo.svg" alt="logo" class="d-inline-block align-text-top d-none d-sm-block logo">
-            <span class="fw-bold d-none d-sm-block logo">COLMAR</span><span
-                class="text d-none d-sm-block logo">ACADEMY</span>
-            <ul class="navbar-nav ms-auto logo">
-                <li class="nav-item">
-                    <a class="d-none d-sm-block" href="#">On campus</a>
-                </li>
-                <li class="nav-item">
-                    <a class="d-none d-sm-block" href="#">Online</a>
-                </li>
-                <li class="nav-item">
-                    <a class="d-none d-sm-block" href="#">For companies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="d-none d-sm-block" href="#">Sign in</a>
-                </li>
-            </ul>
-        </div>
-    </nav> 
-</div>
-
-    <div class="mobileicons">
-        <div class="d-block d-sm-none d-flex">
-            <a class="icon1 flex-fill" href="#"><img src="Resources/ic-logo.svg" alt="Colmar Academy logo"/></a>
-            <a class="icon2 flex-fill" href="#"><img src="Resources/ic-on-campus.svg" alt="On campus" /></a>
-            <a class="icon3 flex-fill" href="#"><img src="Resources/ic-online.svg" alt="Online" /></a>
-            <a class="icon4 flex-fill" href="#"><img src="Resources/ic-login.svg" alt="Sign in" /></a>
-        </div>
+        <nav class="navbar navbar-expand navbar-light">
+            <div class="container-fluid">
+                <img src="Resources/ic-logo.svg" alt="logo"
+                    class="d-inline-block align-text-top d-none d-sm-block logo">
+                <span class="fw-bold d-none d-sm-block logo">COLMAR</span><span
+                    class="text d-none d-sm-block logo">ACADEMY</span>
+                <ul class="navbar-nav ms-auto logo">
+                    <li class="nav-item">
+                        <a class="d-none d-sm-block" href="#">On campus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-none d-sm-block" href="#">Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-none d-sm-block" href="#">For companies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-none d-sm-block" href="#">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
+    <nav class="navbar navbar-light bg-light d-block d-sm-none d-flex" style="height: 64px;">
+        <div class="container">
+            <img src="Resources/ic-logo.svg" alt="logo">
+            <img src="Resources/ic-on-campus.svg" alt="campus">
+            <img src="Resources/ic-online.svg" alt="online">
+            <img src="Resources/ic-login.svg" alt="login">
+        </div>
+    </nav>
+
     <div class="container-fluid banner">
         <div class="row">
             <div class="col-md-7 imageone d-none d-sm-block">
@@ -72,7 +73,7 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" style="padding-left: 0px;">
                         <div class="card border-top-0">
                             <div class="row g-0 orientation">
                                 <div class="col-md-4 col-sm">
@@ -90,11 +91,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 campus-style">
                         <div class="card mb-3 border-end-0">
                             <div class="row g-0 campus">
                                 <div class="col-md-4">
-                                    <img src="Resources/information-campus.jpg" class="img-fluid" alt="Picture of campus">
+                                    <img src="Resources/information-campus.jpg" class="img-fluid"
+                                        alt="Picture of campus">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -105,32 +107,32 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <div class="d-none d-sm-block">
-        <div class="row practise">
-            <div class="col-sm-7">
+        <div class="row">
+            <div class="col-sm-7 practise">
                 <h3 class="fw-bold">It doesn't hurt to keep practising</h3>
                 <p>"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat
                     neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
                     dolor consequat, tristique ligula"</p><br><br>
                 <p>Emanuel, Sr Strategist at Hiring.com</p>
             </div>
-            <div class="col-sm">
-                <div class="card mb-3 border-0">
+            <div class="col-sm" style="padding: 0px;">
+                <div class="card mb-3">
                     <div class="row g-0 guest">
                         <div class="col-md-4">
                             <img src="Resources/information-guest-lecture.jpg" class="img-fluid rounded-start"
                                 alt="Oliver Sack">
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body border-start">
+                            <div class="card-body">
                                 <h5 class="card-title">Our guest lecture</h5>
-                                <p class="card-text"><small class="text-muted">Join a keynote with Oliver Sackabout
-                                        music in medical treatment</small></p>
+                                <p class="card-text"><small class="text-muted">Join a keynote with Oliver Sackabout music in medical treatment</small></p>
                                 <a href="#">Read more</a>
                             </div>
                         </div>
@@ -238,7 +240,7 @@
     <div class="d-block d-sm-none border-top border-bottom">
         <h1 style="text-align: center;">Start learning</h1>
         <p class="d-grid">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            <button class="btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
                 aria-expanded="false" aria-controls="collapseExample">
                 Software engineering </button>
         </p>
@@ -251,7 +253,7 @@
             </div>
         </div>
         <p class="d-grid">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#artbutton"
+            <button class="btn1" type="button" data-bs-toggle="collapse" data-bs-target="#artbutton"
                 aria-expanded="false" aria-controls="collapseExample">
                 Computer art
             </button>
@@ -267,7 +269,7 @@
             </div>
         </div>
         <p class="d-grid">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#designbutton"
+            <button class="btn1" type="button" data-bs-toggle="collapse" data-bs-target="#designbutton"
                 aria-expanded="false" aria-controls="collapseExample">
                 Design
             </button>
@@ -282,7 +284,7 @@
             </div>
         </div>
         <p class="d-grid">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#databutton"
+            <button class="btn1" type="button" data-bs-toggle="collapse" data-bs-target="#databutton"
                 aria-expanded="false" aria-controls="collapseExample">
                 Data </button>
         </p>
@@ -296,7 +298,7 @@
             </div>
         </div>
         <p class="d-grid">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#businessbutton"
+            <button class="btn1" type="button" data-bs-toggle="collapse" data-bs-target="#businessbutton"
                 aria-expanded="false" aria-controls="collapseExample">
                 Business
             </button>
@@ -313,7 +315,7 @@
             </div>
         </div>
         <p class="d-grid">
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#marketingbutton"
+            <button class="btn1" type="button" data-bs-toggle="collapse" data-bs-target="#marketingbutton"
                 aria-expanded="false" aria-controls="collapseExample">
                 Marketing </button>
         </p>
@@ -327,10 +329,11 @@
             </div>
         </div>
     </div>
+
     <h1 class="thesis">Thesis exhibit</h1>
     <div class="row video" style="background-color: white;">
         <div class="col-md-7 d-none d-sm-block">
-            <iframe src="/Colmar/Resources/thesis.mp4" allowfullscreen width="100%" height="100%"></iframe>
+            <iframe src="Resources/thesis.mp4" allowfullscreen width="100%" height="100%"></iframe>
         </div>
         <div class="col">
             <div class="row">
@@ -353,9 +356,9 @@
                 </div>
                 <div class="col-12 d-none d-sm-block">
                     <div class="card mb-3 border-0">
-                        <div class="row g-0 sky">
+                        <div class="row g-0">
                             <div class="col-md-4 d-none d-sm-block">
-                                <img src="Resources/thesis-now-and-then.jpg" class="img-fluid rounded-start"
+                                <img src="Resources/thesis-now-and-then.jpg" class="img-fluid rounded-start sky"
                                     alt="Empire State Building">
                             </div>
                             <div class="col-md-8 d-none d-sm-block">
@@ -388,12 +391,12 @@
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
         <p class="col-md-4 mb-0 text-muted">© 2016 Colmar Academy. All rights reserved</p>
-    
+
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy</a></li>
         </ul>
-      </footer>
+    </footer>
 
     <!-- 
     <footer>
